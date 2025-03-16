@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 import java.lang.reflect.InvocationTargetException;
 import java.util.Scanner;
 
-public class PDynamic {
+public class PresDynamic {
     public static void main(String[] args) throws FileNotFoundException, ClassNotFoundException, InstantiationException, IllegalAccessException, NoSuchMethodException, InvocationTargetException {
         System.out.println("Instanciation dynamique");
         Scanner scanner = new Scanner(new File("src/config.txt"));
