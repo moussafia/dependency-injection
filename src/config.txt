@@ -1,0 +1,2 @@
+ma.enset.media.dao.IDaoImpl
+ma.enset.media.metier.MetierImpl
