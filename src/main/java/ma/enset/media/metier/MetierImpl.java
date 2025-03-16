@@ -1,11 +1,14 @@
 package ma.enset.media.metier;
 
 import ma.enset.media.dao.IDao;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Service;
 
+@Service("metier")
 public class MetierImpl implements Imetier {
     private IDao iDao;
 
-    public MetierImpl(IDao iDao) {
+    public MetierImpl(@Qualifier("d") IDao iDao) {
         this.iDao = iDao;
     }
 
