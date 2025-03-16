@@ -5,7 +5,7 @@ import ma.enset.media.dao.IDaoImpl;
 import ma.enset.media.metier.Imetier;
 import ma.enset.media.metier.MetierImpl;
 
-public class Pres1 {
+public class PStatic {
     public static void main(String[] args) {
         System.out.println("**************** instanciation statique ****************");
         IDao iDao = new IDaoImpl(); // instanciation statique
